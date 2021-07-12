@@ -1,0 +1,74 @@
+.profile {
+  background: #fff;
+  border-radius: 4px;
+  max-width: 250px;
+  padding: 30px 0 0;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  border-bottom: 1px solid #9e9e9e;
+}
+.avatar {
+  margin-bottom: 20px;
+  background-color: #9e9e9e;
+  border-radius: 50%;
+  max-width: 50%;
+}
+.name {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #212121;
+}
+.tag {
+  margin: 1px auto 10px auto;
+  font-size: 14px;
+  color: #535353;
+  cursor: pointer;
+}
+
+.tag:hover {
+  color: blue;
+}
+.location {
+  margin: 10px auto 20px auto;
+  font-size: 14px;
+
+  color: #535353;
+}
+.stats {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+}
+.stats li {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+  width: 100%;
+  font-size: 14px;
+  color: #5e5e5e;
+  background-color: rgba(230, 227, 227, 0.37);
+}
+.stats li:nth-child(2n) {
+  border-right: 1px solid #9e9e9e;
+  border-left: 1px solid #9e9e9e;
+}
+
+.quantity {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #212121;
+}

@@ -1,0 +1,47 @@
+.list {
+  padding-left: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  background-color: cornsilk;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid rgb(228, 225, 225);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14);
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.online {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.offline {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-right: 10px;
+  height: 48px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 30px;
+}
